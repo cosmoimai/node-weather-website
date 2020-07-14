@@ -23,7 +23,7 @@ weatherform.addEventListener("submit", (e) => {
   fetch(url).then((response) => {
     response.json().then((data) => {
       if (data.error) {
-        console.log("There is an error");
+        console.log("There is an errorr");
         messageOne.textContent = "There is an error";
       } else {
         messageOne.textContent = `${data.location}`;
